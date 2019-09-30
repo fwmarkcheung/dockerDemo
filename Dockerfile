@@ -1,4 +1,4 @@
-FROM eap-cd-openshift:17.0
+FROM marriott-eap-demo/eap-cd-openshift:17.0
 MAINTAINER Mark Cheung mcheung@redhat.com
 
 USER jboss
