@@ -1,3 +1,6 @@
+FROM eap-cd-openshift:17.0
+MAINTAINER Mark Cheung mcheung@redhat.com
+
 USER jboss
 
 #COPY modules/ /modules
