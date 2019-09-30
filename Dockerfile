@@ -13,4 +13,4 @@ RUN chown jboss:jboss $JBOSS_HOME/standalone/deployments/*.ear
 
 USER jboss
 
-CMD ["$JBOSS_HOME/bin/standalone.sh", "-b", "0.0.0.0", "-P, "$JBOSS_HOME/standalone/configuration/runtime.properties", "-c", "marriott-standalone-openshift.xml"]
+CMD ["$JBOSS_HOME/bin/standalone.sh", "-b", "0.0.0.0", "-P", "$JBOSS_HOME/standalone/configuration/runtime.properties", "-c", "marriott-standalone-openshift.xml"]
